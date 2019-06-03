@@ -1,0 +1,64 @@
+   body {
+       margin: 0px;
+       padding: 0px;
+       /* background:url('http://desktopbackgrounds1.com/wp-content/uploads/2012/03/cool-backgrounds-for-desktop-4.jpg'); */
+   }
+   
+   
+   .container {
+     position:relative;  
+   }
+   
+   #inset {
+     width:110px;
+     height:110px;
+     border-radius:50%;
+     border:10px solid white;
+     background:black;
+     position:absolute;
+     top:60px;
+     left:60px;
+   }
+   
+   .numbers {
+					display:        inline-block;
+					vertical-align: top;
+					text-align:     center;
+					font-weight:    800;
+					font-size:      40px;
+					font-family:    "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					color:          white;
+          position:absolute;
+          top:30px;
+          left:15px;
+        }
+        
+#app {
+  margin-top: 40px;
+}
+
+#progressInput {
+  margin: 20px auto;
+  width: 30%;
+}
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #ddd;
+}
+
+.circle-progress {
+  stroke: red;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.circle-text {
+  font-size: 3em;
+  font-weight: bold;
+  fill: red;
+}
